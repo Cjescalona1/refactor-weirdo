@@ -14,7 +14,7 @@
    
     background-repeat: no-repeat;
     background-position: center !important;
-    height: 120vh;
+    height: 1080px;
     margin:  0em;
     padding:  0em;
     display: flex;
@@ -657,20 +657,20 @@ background-color:#EEEEEE;
   /*Queries*/
   @media  screen and (min-width: 768px) and (max-width: 1350px) {
     
+
     .container{
-        height: 450px;
-        margin:  0em;
-    padding:  0em;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+      height: 450px;
+      margin: 2em 0em;
+      padding: 2em 0em;
+      display: flex;
+      align-content: center;
+      justify-content: center;
     /* background-image: url(../public/res/01-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; */
     }
-    body{ 
-      
+    body{  
         height: 100%;
         margin: 0em 0em;
         padding: 0;
@@ -684,12 +684,79 @@ background-color:#EEEEEE;
         max-height: 550px;
         
     }
+    .leftBoxContent{
+      padding-top: 12em;
+      padding-left: 10%;
+    }
     .rightBox{ 
         width: 60%;
         max-width: 680px;
         min-width: 680px;
         max-height: 550px; 
     }
+    /**/
+    .alfaCont{
+    background-image: url(../public/res/01.jpg);
+    max-width: 100vw;
+    min-height: 100%;
+    text-align: center;
+    background-size: 1920px 1080px;
+    width: auto;
+    height: 900px; 
+    background-position: center !important;
+}
+ 
+    
+  .statisticList{
+    padding: 0px;
+    font-size: 10px;
+    text-align: left;
+}
+.statistics{
+    padding: -0px;
+    font-size: 32px;   
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-stretch: condensed;
+    text-align: left;
+}
+.quant{
+    padding: 0;
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: px;
+    margin-top: -15px;
+    text-align: left;
+
+}
+.weirdTrio > img {
+  width: 14.5em;
+  margin-top: -20px;
+  margin-left: -25px;
+}
+.weirdMessage{
+    font-size: 9px;
+    justify-content: center;
+    text-align: left;
+    padding: 0.5em;
+    line-height: 12px;   
+    margin-left: -3px; 
+}
+.weirdos{
+    margin-top: calc(5em + 5%);
+    width: 96%;
+    height: 31em;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1em 0em;
+}
+    /**/
+
+
+    /*
     .statisticList{
      padding: 0px;
      font-size: 12px;
@@ -733,6 +800,7 @@ background-color:#EEEEEE;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em 0em;
 } 
+*/
 .emptyWeirdo{
     height: 14.5em;
     width: 10.5em;
@@ -908,6 +976,7 @@ background-color:#EEEEEE;
   }
   .alfaCont{
        background-image: url(../public/res/01.jpg); 
+       height: 1080px;
   }
   .leftBox{
       min-width: 320px;
@@ -918,8 +987,8 @@ background-color:#EEEEEE;
       margin-top: 14em;
   }
   .leftBoxContent {
-    padding-top: 2em;
-    padding-left: 15%;
+    padding-top: 0em;
+    padding-left: 20%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1194,8 +1263,8 @@ background-color:#EEEEEE;
       }
 
       .leftBoxContent {
-        padding-top: 15em;
-        padding-left: 20%;
+        padding-top: 14em;
+        padding-left: 10%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;

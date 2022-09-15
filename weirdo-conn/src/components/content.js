@@ -72,7 +72,7 @@ export function Content(){
                         </div>
                         <div class="quant" id="trait3">
                             0
-                        </div>
+                            </div>
                         <div>
                         Weirdos with x10 Bonus
                         </div> 
@@ -90,8 +90,10 @@ export function Content(){
 
             <div className="separator"></div>
             <div className="rightBox"></div>
+
         </div> 
         <Footer></Footer>
+
     </>
     )
 }
