@@ -1047,55 +1047,53 @@ background-color:#EEEEEE;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 1em 0em;
-}
-  /**/
-/*
-  .statisticList{
-      padding: 0px;
-      font-size: 14px;
-      text-align: left;
-  }
-  .statistics{
-      padding: -0px;
-      font-size: 42px;   
-      font-weight: 900;
-      margin-top: -10px;
-      margin-bottom: 0px;
-      font-stretch: condensed;
-      text-align: left;
-  }
-  .quant{
-      padding: 0;
-      font-size: 38px;
-      font-weight: 300;
-      margin-bottom: px;
-      margin-top: -15px;
-      text-align: left;
+} 
 
-  }
-  .weirdTrio > img{
-      width:15em;
-      margin-top: -30px;
-      margin-left: -15px;
-  }
   .weirdMessage{
       font-size: 9px;
       justify-content: center;
       text-align: left;
       padding: 0.5em;
-      line-height: 12px;    
+      line-height: 12px;   
+      margin-left: -3px; 
   }
   .weirdos{
       margin-top: calc(5em + 5%);
-      width: 97%;
-      height: 25em;
+      width: 96%;
+      height: 31em;
       overflow-y: scroll;
       overflow-x: hidden;
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr ;
       grid-gap: 1em 0em;
   }
-  */
+  .emptyWeirdo{
+      height: 14.7em;
+      width: 10.5em;
+      position: relative; 
+      background-color: rgb(61, 25, 83);
+      border-radius: 3px;
+     border-style: solid;
+      border-color: #1d5507;
+     border-width: 1.5px;
+  }
+  .weirdMessage{
+      font-size: 9px;
+      justify-content: center;
+      text-align: left;
+      padding: 1em 1em 0em 1em;
+      line-height: 12px;  
+      color: aliceblue !important; 
+        
+  }
+  .emptyWeirdo>img{
+      position: relative;
+      top: 3%;
+      left: 0%;
+      width: 94%;
+      height: 68%;
+  }
+
   .emptyWeirdo{
       height: 14.5em;
       width: 10.5em;
@@ -1275,8 +1273,13 @@ background-color:#EEEEEE;
       width: 60%; 
       width: 1000px;
       max-height: 900px;
-      rotate: 5%;
+      
+      padding-top: 10em;
+      border: red solid ;
 
+  }
+  #Yourwallet{
+    margin-top: 1.2em;
   }
   .statisticList{
       padding: 0px;
@@ -1449,8 +1452,7 @@ background-color:#EEEEEE;
 }
 #Your_WeirdosD{    
   text-shadow: #91f350 1px 1px;
-  font-size: 4em;
-  margin-top: -1.8em;
+  font-size: 4em; 
   position: relative;
   left: 2.5em;
   top: 1.5em; 
