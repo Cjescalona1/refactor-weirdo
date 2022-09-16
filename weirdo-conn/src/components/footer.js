@@ -1,12 +1,6 @@
 import Collapsible from 'react-collapsible';
 export function Footer(){
-    var list =[true,true,false,false,false]; 
-    
-    function openCollapse(element){
-        console.log(element)
-        list[element]=!list[element] 
-        console.log(list);
-    } 
+ 
     return(
     <>
     <div className="foot" id="foot"> 
