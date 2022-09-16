@@ -92,9 +92,8 @@ export function Content(){
             <div className="separator"></div>
             <div className="rightBox">
             <div className="rightBoxContent" id="rightBoxContent">
-                <div id="Yourwallet">Your wallet</div>
-                <div id="WalletD" >11111111111111111111111</div>
-                <div id="Yourweirdosstaked">Your weirdos staked</div>
+                
+                <div id="WalletD" >11111111111111111111111</div> 
                 <div id="Your_WeirdosD"> 20/20
                 </div>
                  <div className="weirdos" id="weirdosAll">
