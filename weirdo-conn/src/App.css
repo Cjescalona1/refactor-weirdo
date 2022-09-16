@@ -677,8 +677,8 @@ background-color:#EEEEEE;
       display: flex;
       align-content: center;
       justify-content: center;
-    /* background-image: url(../public/res/01-2.jpg);
-    background-repeat: no-repeat;
+    
+    /*background-repeat: no-repeat;
     background-size: cover;
     background-position: center; */
     }
@@ -709,14 +709,9 @@ background-color:#EEEEEE;
     }
     /**/
     .alfaCont{
-    background-image: url(../public/res/01.jpg);
-    max-width: 100vw;
-    min-height: 100%;
-    text-align: center;
-    background-size: 1920px 950px;
-    width: auto;
-    height: 900px; 
-    background-position: center !important;
+      background-image: url(../public/res/1350.jpg) !important ; 
+      background-size: 1350px 585px;
+      height: 585px;
 }
  
     
@@ -945,9 +940,10 @@ background-color:#EEEEEE;
 }
 @media screen and (min-width: 1350px) and (max-width:1440px) {
   .alfaCont{
-    height: 950px !important;
-    background-size: 2000px 1080px !important;
-  }
+    background-image: url(../public/res/1850.jpg) !important; 
+    background-size: 1850px 950px;
+    height: 950px;
+}
   .weirdos {
     margin-top: calc(15em + 5%);
     width: 100%;
@@ -969,8 +965,9 @@ background-color:#EEEEEE;
      
   } 
   .alfaCont{
-       background-image: url(../public/res/01.jpg); 
-       height: 1080px;
+      background-image: url(../public/res/1850.jpg); 
+      background-size: 1850px 950px;
+      height: 950px;
   }
   .leftBox{
       min-width: 320px;
