@@ -665,7 +665,265 @@ transform:translate(-50%,50%) rotate(45deg);
 background-color:#EEEEEE;
 
 }
+@media screen and (max-width:767px) {
+    
+  .alfaCont{
+    display: flex;
+    flex-direction: column; 
+    background-image: none  !important;
+    height: max-content;
+    margin: 0em;
+    padding-bottom: 2em;
+  }
+  #WalletD, #Your_WeirdosD{
+      display: none;
+  }
+  .logo{
+      width: 12em;
+      height: 4em;
+      vertical-align: middle;
+      text-align: center;
+  }
+
+  .hideMob{
+      display: none;
+  }
+  .colla{
+      width: 80vw;
+  }
+  .collapsible:active{
+  background-color: #fefddf;
+  }
+  .active, .collapsible:hover {
+  background-color: #fefddf;
+   
+    }
+  .devil>img{
+      width: 75%;
+  padding: 0.5em;
+  }
+  body{ 
+      background-image: url(../public/res/fondo-mobile-05.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
+      height: 100%;
+      margin: 0em 0em;
+      padding: 0;
+      border: none; 
+  } 
+  .mobUL{
+      list-style: none;
+  }
+  .contMobSocialButtons{
+  right: 2em;
+  position: relative;
+  top: 4em;
+  }
+  .mobSocialButtons{
+      display: inline;
+      margin-left: -20px;
+  }
+
+  .mobUL>li{
+      height: 3em;
+      margin: 0;
+      padding: 0; 
+  }
+  .mobileUwuClaim{
+      display :flex; 
+  }
+  .uwuClaim{
+    vertical-align: middle;
+    margin-left: 7em;
+    margin-bottom: 2em;
+    top: 1em;
+  }
+  .cummulative{
+      padding: 0.4em 1.5em !important;
+  } 
+  .desktopClaim{
+      display: none;
+  }
+  .headerBar{
+      height: 2.4em;
+  }
+  .container{
+      display: flex;
+      flex-direction: column;
+      margin: 1em 0em;
+  }
+  .weirdTrio{
+      display: none;
+  }
+  .leftBox{
+      background-image: url(../public/res/papel.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;    
+      width: 100%;
+      text-align: center;
+      margin-left: 2%;
+  }
+  .separator{
+      display: none;
+  }
+  .rightBox{
+      width: 90%;
+      background-image: none;
+      margin: auto;
+      margin-top: 0 !important;
+   
+  }
+  .rightBoxContent {
+      padding: 0em;
+      flex-direction: row;
+      align-items: flex-start;
+      overflow-x: scroll;
+      display: flex;
+      align-content: center;
+      justify-content: flex-start;
+  }
+  .weirdos {
+      margin-top: calc(0em + 5%); 
+      height: 100%;
+      display: grid;
+      grid-gap: 1.5em;
+      justify-content: start;
+      grid-auto-flow: column;
+      overflow: initial;
+  }
+  .emptyWeirdo>img{
+      position: relative;
+      top: 4%;
+      left: 0%;
+      width: 90%;
+      height: 65%;
+  }
+  .weirdMessage {
+      font-size: 12px;
+      padding: 1.2em;
+      line-height: 16px;
+      color: antiquewhite !important;
+  }
+  .emptyWeirdo {
+      height: 21em;
+      width: 16em;
+      position: relative;
+      background-color: #2e0746;
+      margin-bottom: 1em !important;  
+      border-radius: 4px;  
   
+}
+.yellowBand{
+  padding: 0px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 2em;
+  text-align: center;
+  background-color: #3eff68;
+  border-radius: 10px;
+  width: 90%;
+  margin: 6% 5% -3% 5%;
+}
+.leftBoxContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 1em 5% 2em 10%;
+}
+.statBox{
+  width: 45%;
+  padding: 5px;
+  margin: 0;
+}
+.SBLast{
+  width: 100%;
+}
+.statisticList {
+  padding: 0;
+  width: 95vw;
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .quant{
+      padding: 0;
+      font-size: 36px;
+      font-weight: 600;
+      margin-top: -20px;   
+  }
+  .approve{
+  font-size: 1.2em;
+  width: 70%;
+  position: relative;
+  background-color: #35f049;
+  height: 2.4em;
+  font-weight: 600;
+  color: #251b2e !important;
+  text-align: center;
+  border-radius: 12px;
+  margin-top: 3em;
+}
+.content{
+  width: 98.2% !important;
+}
+.mute, .unmute{
+  top: 3.5em;
+  position: relative;
+}
+
+.logoMov{
+  width: 9em;
+  height: 3em;
+  position: relative;
+  left: -6em;
+  top: -0.5em;
+}
+.muteMobile{
+      position: absolute;
+      top: 5.2em;
+      right: 22%;
+      margin-left: -2em;
+      margin-top: -45px;
+      width: 1.5em;
+      height: 1.5em;
+      z-index: 1000;
+}
+#Wallet{
+  margin-left: 0em;
+  margin-top: 1em;
+  text-shadow: #91f350 1px 1px;
+  margin-bottom: 1em;
+}
+#Your_Weirdos{
+  margin-left: 0em;
+  margin-top: -0.5em;
+  text-shadow: #91f350 1px 1px;
+  margin-bottom: -1em;
+  font-size: 4em;
+}
+
+.walletTitle{
+  font-size: 1.5em;
+  color: #6ecddd !important;
+}
+.stakedTitle{
+  font-size: 1.5em;
+  color: #6ecddd !important;
+}
+.foot{
+  margin: 0;
+}
+.foot2{
+  margin: 4em 0em 0em 5%;
+}
+.trigger{
+  font-size: 12px;
+}
+
+}
   /*Queries*/
   @media  screen and (min-width: 768px) and (max-width: 1440px) {
     
