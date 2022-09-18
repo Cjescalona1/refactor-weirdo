@@ -1071,7 +1071,7 @@ Animations
 
 }
   /*Queries*/
-  @media  screen and (min-width: 768px) and (max-width: 1440px) {
+  @media  screen and (min-width: 768px) and (max-width: 1350px) {
     
   
     .container{
@@ -1101,8 +1101,15 @@ Animations
         
     }
     .leftBoxContent{
-      padding-top: 12em;
-      padding-left: 10%;
+      padding-top: 0em;
+      padding-left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      position: relative;
+      left: 3em;
+      top: 4em;
     }
     .rightBox{ 
         width: 60%;
@@ -1111,6 +1118,15 @@ Animations
         max-height: 550px; 
         margin-left: 3em;
     }
+    .rightBoxContent {
+      padding: 2em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      top: -8em;
+      position: relative;
+  }
     /**/
     .alfaCont{
       background-image: url(../public/res/1350.jpg) !important ; 
@@ -1134,12 +1150,11 @@ Animations
     text-align: left;
 }
 .quant{
-    padding: 0;
-    font-size: 48px;
-    font-weight: 300;
-    margin-bottom: px;
-    margin-top: -15px;
-    text-align: left;
+  padding: 0;
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: -15px;
+  text-align: left;
 
 }
 .weirdTrio > img {
@@ -1156,24 +1171,24 @@ Animations
     margin-left: -3px; 
 }
 .weirdos{
-  margin-top: calc(13em + 5%);
-    width: 96%;
-    height: 31em;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1em 0em;
+  margin-top: calc(13.5em + 5%);
+  width: 90%;
+  height: 18em;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5em 0em;
 }
 .emptyWeirdo{
-    height: 12.5em;
-    width: 8.5em;
-    position: relative;
-    background-color: rgb(61, 25, 83);
-    border-radius: 3px;
-    border-style: solid;
-    border-color: #1d5507;
-    border-width: 1.5px;
+  height: 14.5em;
+  width: 10.5em;
+  position: relative;
+  background-color: rgb(61, 25, 83);
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #1d5507;
+  border-width: 1.5px;
 }
 .weirdMessage{
     font-size: 9px;
@@ -1342,26 +1357,8 @@ Animations
   top: 5.5em;
 }
 }
-@media screen and (min-width: 1350px) and (max-width:1440px) {
-  .alfaCont{
-    background-image: url(../public/res/1850.jpg) !important; 
-    background-size: 1850px 950px;
-    height: 950px;
-}
-  .weirdos {
-    margin-top: calc(15em + 5%);
-    width: 100%;
-    height: 31em;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 1em 0.5em;
-}
 
-}
-
-@media  screen and (min-width: 1441px) and (max-width: 1850px)  {
+@media  screen and (min-width: 1350px) and (max-width: 1850px)  {
   .container{
     background-size: 1920px 950px;
     width: auto;
@@ -1383,19 +1380,23 @@ Animations
   }
   .leftBoxContent {
     padding-top: 0em;
-    padding-left: 45%;
+    padding-left: 40%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    position: relative;
+    left: 9em;
+    top: 2em;
 }
   .rightBox{
-      min-width: 950px;
-      max-width: 950px;
-      max-height: 900px;
-      left: 13em;
-      position: relative;
-      top: 14em;
+    min-width: 950px;
+    max-width: 950px;
+    max-height: 900px;
+    position: relative;
+
+    left: 11em;
+    top: 7em;
   }
   .rightBoxContent{
     padding: 0em;
@@ -1414,13 +1415,14 @@ Animations
     text-align: left;
 }
 .statistics{
-    padding: -0px;
-    font-size: 54px;   
-    font-weight: 900;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    font-stretch: condensed;
-    text-align: left;
+  padding: 0px;
+  font-size: 44px;
+  font-weight: 900;
+  margin-top: -2em;
+  margin-bottom: 0px;
+  font-stretch: condensed;
+  text-align: left;
+  margin-left: 0em;
 }
 .quant{
     padding: 0;
@@ -1432,9 +1434,9 @@ Animations
 
 }
 .weirdTrio > img{
-    width:20em;
-    margin-top: -20px;
-    margin-left: -25px;
+  width: 17em;
+    margin-top: -15px;
+    margin-left: -15px;
 }
 .weirdMessage{
     font-size: 9px;
@@ -1448,12 +1450,12 @@ Animations
 
 .weirdos{
   margin-top: calc(5em + 5%);
-  width: 100%;
+  width: 80%;
   height: 31em;
   overflow-y: scroll;
   overflow-x: hidden;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 1em 0.5em;
 }
 
@@ -1652,15 +1654,16 @@ Animations
       margin-right: 23px;
       text-shadow: #91f350 1px 1px;
       position: relative;
-      top: 4em;
+      top: 8em;
+      right: 4em;
   }
   #Your_WeirdosD{    
     text-shadow: #91f350 1px 1px;
     font-size: 5em;
     margin-top: -1em;
     position: relative;
-    left: 3.5em;
-    top: 1.5em;
+    left: 2.5em;
+    top: 2em;
   }
 }
 
@@ -1862,7 +1865,7 @@ Animations
 #Yourwallet,#Yourweirdosstaked,#WalletD {
 
   margin-left: 30em;
-  margin-top: 0em;
+  margin-top: 2em;
   text-shadow: #91f350 1px 1px;
 }
 #Your_WeirdosD{    

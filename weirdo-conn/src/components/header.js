@@ -45,7 +45,7 @@ export function Header(){
                         </ul>
                         <img src="res/Logo-02.png" class="logoMov hideDesktop" alt=""></img>
                         <div className="toggleButton" onClick={()=>setShow(!show)} >
-                        <label for="toggle" class="hamburger">
+                        <label for="toggle" class="hamburger  hideDesktop ">
                         <div class="top-bun"></div>
                         <div class="meat"></div>
                         <div class="bottom-bun"></div>
@@ -57,7 +57,7 @@ export function Header(){
                 show?
                 <div class="nav-wrapper">
                 <div>
-                <div className="toggleButton " onClick={()=>setShow(!show)} >
+                <div className="toggleButton" onClick={()=>setShow(!show)} >
                     <div className="hamburger">
                         <img src="res/Iconos-09.png" alt="close"></img>
                     </div>
