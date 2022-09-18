@@ -59,7 +59,7 @@ export function Header(){
                 <div>
                 <div className="toggleButton " onClick={()=>setShow(!show)} >
                     <div className="hamburger">
-                        <img src="res/Iconos-09.png"></img>
+                        <img src="res/Iconos-09.png" alt="close"></img>
                     </div>
                 </div>
                     <ul class="mobUL">

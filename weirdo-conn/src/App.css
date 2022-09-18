@@ -857,6 +857,10 @@ Animations
   .mobUL{
       list-style: none;
   }
+  .mobUL>li>a{
+    text-decoration: none;
+    color: #6ecddd !important;
+  }
   .contMobSocialButtons{
   right: 2em;
   position: relative;
