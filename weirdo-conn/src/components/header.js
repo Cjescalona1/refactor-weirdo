@@ -1,6 +1,9 @@
 import { useState } from "react"; 
-
+import {useSound} from 'use-sound'
+import terror from '../../src/Terror2.wav';
 export function Header(){
+    const [play, {pause}] = useSound(terror);
+    const [onOff, setOnOff] = useState(true);
     const[show,setShow]=useState(false);
     return(
         <>  
@@ -17,9 +20,16 @@ export function Header(){
                             <li><a href="https://opensea.io/collection/underworldweirdos-main" to="https://opensea.io/collection/underworldweirdos-main">Collection</a></li>
                             <li><a href="https://quickswap.exchange/#/swap?inputCurrency=0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270&outputCurrency=0xc586a4a0db0bc1169d490b8fbf0633cc06d0f0d3" to="https://quickswap.exchange/#/swap?inputCurrency=0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270&outputCurrency=0xc586a4a0db0bc1169d490b8fbf0633cc06d0f0d3">Token</a></li>
                             <li><a href="#foot" id="goFoot" >FAQ</a></li>
-                            <li><a href="void(0)" to="#" id="aprobar" onClick="NftApro()">Approve Stake</a></li>
-                            <li><a href="void(0)" to="#" id="token" onClick="aprovartoken()">Approve Token</a></li>
-                            <li><a href="void(0)" to="#" id="special" onClick="NftApro2()">Approve Special</a></li>
+                            <li> 
+                            <div className="claimButton CBtop">
+                            <a href="void(0)" to="#" id="aprobar" onClick="NftApro()">Approve Stake</a>
+                            </div>
+                            </li>
+                            <li>
+                            <div className="claimButton CBtop">
+                                <a href="void(0)" to="#" id="token" onClick="aprovartoken()">Approve Token</a>
+                            </div>
+                            </li>  
 
                             <li className="uwuClaim " ><div className="cummulative" id="Your_Reward"> </div> <a href="void(0)" to="#">
                                 <div className="claimButton hide" onClick="Claim()"   id="Claim">Claim Rewards</div>
@@ -40,7 +50,18 @@ export function Header(){
                                 </a>
                             </li>
                             <li > 
-                                <div id="toggleAudio" className="mute" onClick="toggleMuted()"> </div>
+                            {onOff?
+                                <div onClick={()=>{setOnOff(!onOff)}}>
+                                    <div id="toggleAudio" className="mute" onClick={play}> 
+                                    </div>
+                                </div>
+                                :
+                                <div onClick={()=>{setOnOff(!onOff)}}>
+                                    <div id="toggleAudio" className="unmute" onClick={()=>{pause()}}> 
+                                    </div>
+                                </div>
+
+                                }
                             </li>
                         </ul>
                         <img src="res/Logo-02.png" class="logoMov hideDesktop" alt=""></img>
@@ -85,9 +106,22 @@ export function Header(){
                         </li>
                         
                         
-                        <li><a href="void(0)" id="aprobarM" onclick="NftApro()">Approve Stake</a></li>
-                        <li><a href="void(0)" id="tokenM" onclick="aprovartoken()">Approve Token</a></li>
-                        <li><a href="void(0)" id="specialM" onclick="NftApro2()">Approve Special</a></li>
+                        <li>
+                            <div className="claimButton" >
+                                <a href="void(0)" id="aprobarM" onclick="NftApro()">Approve Stake</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="claimButton" >
+                                <a href="void(0)" id="tokenM" onclick="aprovartoken()">Approve Token</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="claimButton" >
+                                <a href="void(0)" id="specialM" onclick="NftApro2()">Approve Special</a>
+                            </div>
+                        </li>
+                         
                         
 
                         <div class="contMobSocialButtons">

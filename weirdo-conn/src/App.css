@@ -796,8 +796,15 @@ Animations
   transform: scale(1);
 }
 /* burgir */
-
-
+.CBtop{
+  margin-top: -0.5em;
+}
+.CBtop>*, .claimButton>* {
+  text-decoration: none;
+}
+.cummulativeM{
+  width: 6em;
+}
 @media screen and (max-width:767px) {
     .BM{
       background-color: red;
@@ -881,7 +888,7 @@ Animations
   }
   .uwuClaim{
     vertical-align: middle;
-    margin-left: 7em;
+    margin-left: 5em;
     margin-bottom: 2em;
     top: 1em;
   }
@@ -908,7 +915,7 @@ Animations
       background-size: 100% 100%;    
       width: 100%;
       text-align: center;
-      margin-left: 2%;
+      margin-left: 0%;
   }
   .separator{
       display: none;
@@ -1859,9 +1866,7 @@ Animations
       margin: 0em 0em 0em 0em;
       width: 1000px; 
       
-  }
-
-
+  } 
 #Yourwallet,#Yourweirdosstaked,#WalletD {
 
   margin-left: 30em;

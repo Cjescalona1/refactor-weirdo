@@ -8,7 +8,7 @@ export function Content(){
     <>
         <Header></Header>
         <div className="alfaCont">
-        <div className="uwuClaim mobileUwuClaim" ><div className="cummulative" id="Your_RewardM"> 666666</div> <a href="void(0)">
+        <div className="uwuClaim mobileUwuClaim" ><div className="cummulative cummulativeM" id="Your_RewardM"> 666666</div> <a href="void(0)">
             <div className="claimButton"  id="connectWalletM" >Connect</div>    
             <div className="claimButton hide"  id="ClaimM" >Claim Rewards</div>    
         </a></div>
